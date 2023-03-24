@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is My Main Home">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtSecond"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hai,">
+    </TextView>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Home">
+
+    </Button>
+</LinearLayout>
